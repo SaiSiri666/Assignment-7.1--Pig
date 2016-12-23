@@ -1,0 +1,53 @@
+1. Why Map-reduce program is needed in Pig Programming?
+
+- Pig is written specifically for managing data flow of Map reduce type of jobs and it internally converts into MapReduce program and gets executed.When Pig runs in MapReduce mode, it deals with files stored in Hadoop cluster and HDFS.
+
+2. What are advantages of pig over MapReduce?
+
+-In PIG there is no need of much programming skills. The entire program is based on PIG transformations.
+- Amount of code is very less when compared to MapReduce program. 200 lines of MapReduce program is equivalent to 10 lines of Pig script.
+- It has the ability to perform computations which can not be done by MapReduce.
+- Writing and Executing PIG script is a simple task when compared with MapReduce.
+
+
+3. What is pig engine and what is its importance?
+
+- Pig programs are written in a query language known as Pig Latin that is similar to the SQL query language. To execute the query, there is a need for an execution engine. The Pig engine converts the queries into MapReduce jobs and thus MapReduce acts as the execution engine and is needed to run the programs.
+
+4. What are the modes of Pig execution?
+
+- Map reduce mode (default)
+- Local mode
+
+5. What is grunt shell in Pig?
+
+- The Grunt shell in Pig is mainly used to write Pig Latin scripts. 
+
+6. What are the features of Pig Latin language?
+
+- Apache Pig is a high-level procedural language for querying large semi-structured data sets using
+Hadoop and the MapReduce Platform.
+-It simplifies the use of Hadoop by allowing SQL-like queries to a distributed dataset.
+-Pig engine is used for executing data flows in parallel on Hadoop. It includes a language, Pig
+Latin, for expressing these data flows.
+- Pig Latin includes operators for many of the traditional data operations (join, sort, filter, etc.), as
+well as the ability for users to develop their own functions for reading, processing, and writing
+data.
+- Pig runs on Hadoop. It makes use of both the Hadoop Distributed File System,
+HDFS, and Hadoop’s processing system, MapReduce.
+- It allows users to describe how data from one or more inputs should be read, processed, and then
+stored to one or more outputs in parallel.
+-Pig Latin script describes a directed acyclic graph (DAG), where the edges are data flows and the
+nodes are operators that process the data.
+
+7. Is Pig latin commands case sensitive?
+
+- Yes, they are case sensitive.
+
+
+8. What is a data flow language?
+
+-Dataflow programming models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture.
+
+
+- 
